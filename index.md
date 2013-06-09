@@ -1,11 +1,11 @@
 ---
 layout: page
-title: hkora 
-tagline: Supporting tagline
+title: First page for testing
+comments : false
+tagline: test 
 ---
-{% include JB/setup %}
 
-works
+It works.
 
 <ul class="posts">
   {% for post in site.posts %}
