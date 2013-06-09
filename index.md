@@ -2,7 +2,6 @@
 layout: page
 title: First page for testing
 comments : false
-tagline: test 
 ---
 
 It works.
