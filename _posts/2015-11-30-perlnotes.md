@@ -1,6 +1,6 @@
 ---
 layout: default
-title: testing the first page
+title: Perl Notes
 ---
 
 ##perl习语（idioms）
