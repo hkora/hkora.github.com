@@ -1,10 +1,10 @@
 ---
 layout: page
-title: First page for testing
+title: hk's notes
 comments : false
 ---
 
-It works.
+Pass!
 
 <ul class="posts">
   {% for post in site.posts %}
