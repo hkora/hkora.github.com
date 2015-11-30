@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               hk's notes
 tagline:             'testing'
-description:         '这个家伙很懒，什么都没有留下。'
+description:         '这个家伙很懒，什么都没有留下'
 url:                 http://lanyon.getpoole.com
 baseurl:             'github.com/hkora'
 paginate:            5
@@ -16,7 +16,7 @@ paginate:            5
 author:
   name:              Hou Ke
   url:               github.com/hkora
-  email:             houke.cn@gmail.com
+  email:             houke.cn@gmail.com 
 
 # Custom vars
 version:             1.0.0
