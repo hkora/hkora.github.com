@@ -3,7 +3,7 @@ relative_permalinks: true
 # Setup
 title:               hk's notes
 tagline:             'Testing'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         '这个家伙很懒，什么都没有留下。'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
