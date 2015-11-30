@@ -4,7 +4,7 @@ relative_permalinks: true
 title:               hk's notes
 tagline:             'Testing'
 description:         '这个家伙很懒，什么都没有留下。'
-url:                 http://lanyon.getpoole.com
+url:                 
 baseurl:             ''
 paginate:            5
  
