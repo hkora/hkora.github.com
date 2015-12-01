@@ -1,18 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
 relative_permalinks: true
- 
+
 # Setup
-title:               hk's notes
-tagline:             'Testing'
-description:         '这个家伙很懒，什么都没有留下。'
-url:                 
-baseurl:             ''
-paginate:            5
- 
-# About/contact
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
 author:
-  name:              Hou Ke
-  url:               https://github.com/hkora
-  email:             houke.cn@gmail.com
- 
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
 # Custom vars
-version:             1.0.0
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
