@@ -60,7 +60,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #f8f8f8;
+  background-color: #fbfbfb;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -155,8 +155,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #f8f8f8;
-  background-color: #646464;
+  color: #ac4142;
+  background-color: #f7f8fa;
   border-radius: 3px;
 }
 pre {
@@ -170,8 +170,8 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  color: #f8f8f8;
-  background-color: #646464;
+  color: #ac4142;
+  background-color: #f7f8fa;
 }
 pre code {
   padding: 0;
@@ -249,7 +249,7 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #646464;
+  background-color: #f7f8fa;
 }
 
 
@@ -275,8 +275,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #f8f8f8;
-  background-color: #646464;
+  color: #ac4142;
+  background-color: #f7f8fa;
 }
 
 
