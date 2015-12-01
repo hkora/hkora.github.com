@@ -5,11 +5,13 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
-    <div id="post-date" style="float:left;text-align:left">
-      <i class="fa fa-history">  {{ page.date | date_to_string }}</i>
-    </div>
-    <div id="post-tags" style="float:left;text-align:right">
-      <i class="fa fa-tags">{{ page.tags }}</i>
+    <div id="date-tags" style="display:inline">
+      <div id="post-date" style="float:left;text-align:left">
+        <i class="fa fa-history">  {{ page.date | date_to_string }}</i>
+      </div>
+      <div id="post-tags" style="float:left;text-align:right">
+        <i class="fa fa-tags">{{ page.tags }}</i>
+      </div>
     </div>
   </span>
   {{ content }}
