@@ -12,7 +12,9 @@ title: Home
       </a>
     </h1>
 
+  <span class="post-date">
     <i class="fa fa-history"> &nbsp;&nbsp;{{ page.date | date_to_string }}</i> &nbsp;&nbsp;<i class="fa fa-tags"> &nbsp;&nbsp;{% for tag in page.tags %}{{ tag }}&nbsp;&nbsp;{% endfor %}</i>
+  </span>
 
     {{ post.content }}
   </div>
