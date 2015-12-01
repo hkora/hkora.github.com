@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            hkora.testing
+title:            'hkora.testing'
 tagline:          ''
 description:      'hkora''s notes'
 url:              'https://github.com/hkora'
