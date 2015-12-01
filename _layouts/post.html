@@ -4,7 +4,14 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date"><i class="fa fa-history">{{ page.date | date_to_string }}</i>    <i class="fa fa-tags"></i></span> 
+  <span class="post-date">
+    <div id="post-date" style="text-align:left">
+      <i class="fa fa-history">{{ page.date | date_to_string }}</i>
+    </div>
+    <div id="post-tags" style="text-align:right">
+      <i class="fa fa-tags">{{ page.tags }}</i>
+    </div>
+  </span>
   {{ content }}
 </div>
 
