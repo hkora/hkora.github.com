@@ -7,20 +7,20 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            hk's notes
-tagline:          'testing'
-description:      '这家伙很懒,什么都没有留下。'
-url:              ''
-baseurl:          ''
+title:            testing
+tagline:          ''
+description:      'hk''s notes'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
 author:
-  name:           'hou ke'
-  url:            ''
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-github:           https://github.com/hkora
-  repo:           ''
+github:
+  repo:           https://github.com/poole/hyde
