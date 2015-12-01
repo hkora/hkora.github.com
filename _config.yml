@@ -10,8 +10,8 @@ relative_permalinks: true
 title:            testing
 tagline:          ''
 description:      'hk''s notes'
-url:              https://github.com/hkora
-baseurl:          /
+url:              'https://github.com/hkora'
+baseurl:          '/'
 
 author:
   name:           'Hou Ke'
@@ -23,5 +23,3 @@ paginate:         5
 # Custom vars
 version:          6.626
 
-github:           https://github.com/hkora
-  repo:           https://github.com/hkora/hkora.github.com
