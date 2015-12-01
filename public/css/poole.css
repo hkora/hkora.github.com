@@ -155,8 +155,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f7f7ff;
+  color: #f8f8f8;
+  background-color: #646464;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +170,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f7f7ff;
+  background-color: #646464;
 }
 pre code {
   padding: 0;
@@ -248,7 +248,7 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f7f7ff;
+  background-color: #646464;
 }
 
 
@@ -274,8 +274,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
-  background-color: #f7f7ff;
+  color: #f8f8f8;
+  background-color: #646464;
 }
 
 
