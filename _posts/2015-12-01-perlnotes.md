@@ -13,15 +13,16 @@ __The notes are based on "Idiomatic Perl" - Dave Cross.__
 1. `||`和`or`的优先级不同
 
     `||`优先级高，`or`优先级低，这造成了很多问题。
+```
+$a = $b or $c; #这样用or有问题
+($a = $b) or $c; #实际得到
+$a = $b || $c; #应该用||
 
-        $a = $b or $c; #这样用or有问题
-        ($a = $b) or $c; #实际得到
-        $a = $b || $c; #应该用||
 
-
-        open FILE, $file || die("open $file fail"); #这样用||有问题
-        open FILE, ($file || die("open $file fail")); #实际得到
-        open FILE, $file or die("open $file fail"); #应该用or
+open FILE, $file || die("open $file fail"); #这样用||有问题
+open FILE, ($file || die("open $file fail")); #实际得到
+open FILE, $file or die("open $file fail"); #应该用or
+```
 
 2. 设定默认值
 
