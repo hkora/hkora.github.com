@@ -14,31 +14,30 @@ __The notes are based on "Idiomatic Perl" - Dave Cross.__
 
   `||`优先级高，`or`优先级低，这造成了很多问题。
 
-```
-$a = $b or $c; #这样用or有问题
-($a = $b) or $c; #实际得到
-$a = $b || $c; #应该用||
+  ```
+  $a = $b or $c; #这样用or有问题
+  ($a = $b) or $c; #实际得到
+  $a = $b || $c; #应该用||
 
-
-open FILE, $file || die("open $file fail"); #这样用||有问题
-open FILE, ($file || die("open $file fail")); #实际得到
-open FILE, $file or die("open $file fail"); #应该用or
-```
+  open FILE, $file || die("open $file fail"); #这样用||有问题
+  open FILE, ($file || die("open $file fail")); #实际得到
+  open FILE, $file or die("open $file fail"); #应该用or
+  ```
 
 2. 设定默认值
 
-```
-my $time = shift || "0:0:0";
-```
+  ```
+  my $time = shift || "0:0:0";
+  ```
 
   潜在问题是shift出来的是0或者''，而且0或者''是希望得到的值。
   因为这时$time会得到"0:0:0"。
 
   perl5.10引入了//解决这个问题。
 
-```
-my $time = shift // "0:0:0";
-```
+  ```
+  my $time = shift // "0:0:0";
+  ```
 
   这时$time会得到希望的0或者''。
 
