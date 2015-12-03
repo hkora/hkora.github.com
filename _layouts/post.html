@@ -4,9 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">
-    <i class="fa fa-history"> &nbsp;&nbsp;{{ page.date | date_to_string }}</i> &nbsp;&nbsp;<i class="fa fa-tags"> &nbsp;&nbsp;{% for tag in page.tags %}{{ tag }}&nbsp;&nbsp;{% endfor %}</i>
-  </span>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
 
@@ -16,7 +14,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ post.url }}">
+          <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
