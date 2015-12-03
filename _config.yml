@@ -5,16 +5,16 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               HKORA
+title:               'HKora''s Blog'
 tagline:             'testing...'
-description:         'Here are my notes'
+description:         'Here are my notes.'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Hou Ke
+  name:              'Hou Ke'
   url:               https://twitter.com/mdo
   email:             houke.cn@gmail.com
 
