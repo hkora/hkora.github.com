@@ -7,15 +7,15 @@ relative_permalinks: true
 # Setup
 title:               'HKora''s Blog'
 tagline:             'testing...'
-description:         'Here are my notes.'
-url:                 http://lanyon.getpoole.com
+description:         'This is my notes site.'
+url:                 http://hkora.github.io/
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              'Hou Ke'
-  url:               https://twitter.com/mdo
+  url:               https://github.com/hkora
   email:             houke.cn@gmail.com
 
 # Custom vars
