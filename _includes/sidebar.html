@@ -28,8 +28,11 @@
 
     <span class="sidebar-nav-item">Version v{{ site.version }}</span>
   </nav>
-
   <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  <p style="color: rgba(255, 255, 255, 0.6)">
     {% if site.author.github %}
       <a href="https://github.com/{{ site.author.github }}">
         <span class="fa-stack fa-lg">
@@ -52,8 +55,6 @@
         <i class="fa fa-rss fa-stack-1x"></i>
       </span>
     </a>
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
 </div>
