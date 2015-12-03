@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               'HKora''s Blog'
 tagline:             'testing...'
 description:         'This is my notes site.'
-url:                 http://hkora.github.io
+url:                 'http://hkora.github.io'
 baseurl:             ''
 paginate:            5
 
