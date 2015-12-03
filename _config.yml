@@ -5,18 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               'hkora'
+title:               hkora
 tagline:             'testing'
 description:         'my notes'
-url:                 'http://hkora.github.io'
-baseurl:             '/'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
 paginate:            5
 
 # About/contact
-author:              'Hou Ke'
-  name:              'houke'
-  url:               'https://github.com/hkora'
-  email:             'houke.cn@gmail.com'
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
 version:             6.626
