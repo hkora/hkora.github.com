@@ -5,18 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               hkora
+title:               'hkora'
 tagline:             'testing'
 description:         'my notes'
-url:                 http://hkora.github.io
+url:                 'http://hkora.github.io'
 baseurl:             '/'
 paginate:            5
 
 # About/contact
 author:              'Hou Ke'
-  name:              houke
-  url:               https://github.com/hkora
-  email:             houke.cn@gmail.com
+  name:              'houke'
+  url:               'https://github.com/hkora'
+  email:             'houke.cn@gmail.com'
 
 # Custom vars
 version:             6.626
