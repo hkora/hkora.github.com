@@ -5,18 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               hkora
-tagline:             'testing'
-description:         'my notes'
+title:               HKORA
+tagline:             'testing...'
+description:         'Here are my notes'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Hou Ke
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             houke.cn@gmail.com
 
 # Custom vars
 version:             6.626
