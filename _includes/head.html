@@ -12,23 +12,6 @@
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
-
-  <div class="sidebar-icons">
-    {% if site.author.github %}
-      <a href="https://github.com/{{ site.author.github }}">
-          <i class="fa fa-github-square fa-2x"></i>
-      </a>
-    {% endif %}
-    {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}">
-          <i class="fa fa-envelope fa-2x"></i>
-      </a>
-    {% endif %}
-    <a href="{{ site.BASE_PATH }}/atom.xml">
-        <i class="fa fa-rss fa-2x"></i>
-    </a>
-  </div>
-
   </title>
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
