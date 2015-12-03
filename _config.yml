@@ -15,7 +15,7 @@ paginate:            5
 # About/contact
 author:
   name:              'Hou Ke'
-  github:            https://github.com/hkora
+  github:            hkora
   email:             houke.cn@gmail.com
 
 # Custom vars
